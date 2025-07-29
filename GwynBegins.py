@@ -75,3 +75,32 @@ print("M3gan 2.0")
 print("The ring")
 # I loved how scary it was at the beginning. 
 
+THIS IS FOR Python Geometry
+# Bellow is Rectangles And Squares
+# rectangle_area = base * height
+base = 10
+height = 5
+rectangle_area = base * height
+print(rectangle_area)
+# Stop
+
+# Triangles
+# The area of a triangle is base times height divided by two.
+# triangle_area = (base * height) / 2
+base = 10 
+height = 5
+triangle_area = (10 * 5)/2
+print(triangle_area)
+
+# Circles
+# The area of a circle uses a value known as pi.
+# pi = 3.14 or π = 3.14
+circle_area = pi * radius * radius 
+# or
+circle_area = π * radius * radius
+
+pi = 3.14
+radius = 4
+circle_area = pi * radius * radius
+print(circle_area)
+
