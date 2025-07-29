@@ -1,1 +1,77 @@
 pet = "dog"
+
+**THIS IS FOR concatenation**
+string1 = "dogs are"
+ string2 = " cute" 
+ string3 = string1 + string2 print(string3) 
+ age = 12 
+ print("you are " + str(age) + " years old.")
+ # You need to first convert your integers to a string, then you can concatenate them together. you cannot concatenate an integer into a string. 
+ age = input("how old are you? ") 
+ print("you are " + age + "years old")
+# inputs are automatically accepted as strings # Concatenation can only be done with strings.
+
+ # This works with variables and other strings that haven't been assigned to a variable yet.
+  #  Concatenation is accomplished with the plus sign (+) 
+  first = "i love"
+  second = " grunge" 
+  third = " music" 
+  combine = (first + second + third)
+   print(combine) 
+   #  three variables that are assigned to strings.
+    a = "python"
+     b = "is"
+      c = "cool"
+       result = a + b + c 
+       print(result) 
+       # Concatenated the three variables together and store them in a new variable. 
+       string1 = "I like to" 
+       string2 = "swim." 
+       print(string1 + " " + string2)
+
+name = input()
+age = input()
+birthday = input()
+
+print("Hi " + name + "! You are " + age + " years old and you were born on " + birthday + ".")
+
+name = input()
+how_many = input(10)
+print(name + how_many)
+
+THIS IS FOR CONVERTING DATA TYPES
+name = input("what is your name? ")
+age = int(input("what is your age? "))
+result = (name * age)
+print(result)
+
+THIS IS FOR INPUT OUTPUT MATH
+price = int(input("Enter the price of the box: "))
+count = int(input("Enter number of granola bars: "))
+each_price = price / count
+print(each_price)
+
+THIS IS FOR INPUT OUTPUT
+dessert = input("Taj")
+
+print("Welcome to the website" + dessert) 
+
+THIS IS FOR NUMBERS
+age = 900
+rank_outdoors = 8
+print(rank_outdoors)
+rank_indoors = 10
+print(rank_indoors)
+time_outdoors = 4.0
+print(time_outdoors)
+time_indoors = 6.0
+print(time_indoors)
+
+THIS IS FOR SYNTAX AND COMMENTS
+print("LOTR hobbits")
+# its very faithful to the book in certiant aspects
+print("M3gan 2.0")
+# i loved the story and it was pretty good.
+print("The ring")
+# I loved how scary it was at the beginning. 
+
