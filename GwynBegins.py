@@ -104,3 +104,17 @@ radius = 4
 circle_area = pi * radius * radius
 print(circle_area)
 
+EXAMPLES
+
+side_length = int(input("Enter the side length: "))
+square_area = side_length * side_length
+print(square_area)
+
+MODULUS
+# The percentage sign is used very differently in Python.  This symbol (%) stands for modulus.  The modulus returns the remainder if that number was divided. 
+fruits = 10 % 3
+print(fruits)
+# Determining if a Number is Even or Odd
+number = 245
+print(number % 2)
+# if the remainder is anything other than 0, it must not be an even number.
