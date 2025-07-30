@@ -114,6 +114,7 @@ MODULUS
 # The percentage sign is used very differently in Python.  This symbol (%) stands for modulus.  The modulus returns the remainder if that number was divided. 
 fruits = 10 % 3
 print(fruits)
+
 # Determining if a Number is Even or Odd
 number = 245
 print(number % 2)
@@ -123,19 +124,77 @@ STINGS
 # A string is a piece of information with quotation marks around it. 
 # Strings can also have numbers in them.
 candy = "I have 10 chocolate candies and 13 strawberry candies."
+
 # Strings can also be many words long.
 # Strings can also just have numbers in them.
 age = "15"
+
 # try to do math with a string, we run into problems.
 # Strings can also be called string literals.
+
 # Strings can also hold a large amount of text that goes across multiple lines of code. These are called multiline strings. To create a multiline string, you must use three sets of quotes, double or single, before and after the desired text.
 string1 = """i am a long code vro.
 test me out mayn
 im so cool and stuff 
 i can also be used with single quotes"""
+
 # sometimes a string is so long that it wraps around and forms a new line. 
 multiline = ''' lol im super long string
 i can keep going
 and ill be the same variable anyways vro'''
+
+STRING METHODS
+# Methods are keywords which a program can use to modify data within a variable. To use a method on a variable, you must type the name of the variable then type a period and the name of the method you wish to use. After the name of the method you must type opening and closing parentheses.
+string1.methodname()
+
+# The lower and upper methods are used to make all characters in a string change to be either lowercase or uppercase.
+strin1 =  "I love Coding!"
+print(strin1.lower())
+print(strin1.upper())
+
+# The replace method changes a specified character or characters (letters, numbers, or symbols) in the string to something else. 
+string1 = "Coding is cool!"
+print(string1.replace("cool", "fun"))
+
+# strip method can be used to remove any excess white space at the beginning or end of a string. 
+string1 = " I love Coding! "
+print(string1.strip()) 
+
+# index number is a number that says where a character is in a string. While indexing, we start counting at zero.
+# the first character is always zero 
+string1 = "coding is awsome"
+print(string1[5])
+
+# spaces also count as a character
+# you can go backwards by using negatives Notice that when indexing from the end you start counting at one, not zero.
+string1 = "coding is awsome"
+print(string1[-5])
+
+# Slicing is when we use the indexes to print specific "slices" of a string. To do this, we use colons in the brackets. The first number is the index to start at, and the second number is where to end. 
+string1= "i love coding!"
+print(string1[4:9])
+# If a section is left blank, it will go either to the beginning or the end of the string.
+string1= "i love coding!"
+print(string1[:9])
+
+# To reverse a string, you start slicing at the end of the string and work backwards.  Moving back through the string with a negative number in the third number slot will pull out each letter in turn from back to front.
+string1 = "yodel"
+reverse = string1[len(string1)::-1]
+print(reverse)
+
+# how to split a string
+string1 = "yodel ey yehooo"
+print(string1.split())
+
+# how to see the length of a string
+string1 = "yodel ey yehooo"
+print(len(string1))
+
+# how to Find a Character in a String. will return a number and that will be where it is
+string1 = "Mississippi" 
+print(string1.find("s"))
+# tell it to start from the back with .rfind
+
+CHECKING STRINGS
 
 
