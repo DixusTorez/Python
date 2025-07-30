@@ -118,3 +118,24 @@ print(fruits)
 number = 245
 print(number % 2)
 # if the remainder is anything other than 0, it must not be an even number.
+
+STINGS
+# A string is a piece of information with quotation marks around it. 
+# Strings can also have numbers in them.
+candy = "I have 10 chocolate candies and 13 strawberry candies."
+# Strings can also be many words long.
+# Strings can also just have numbers in them.
+age = "15"
+# try to do math with a string, we run into problems.
+# Strings can also be called string literals.
+# Strings can also hold a large amount of text that goes across multiple lines of code. These are called multiline strings. To create a multiline string, you must use three sets of quotes, double or single, before and after the desired text.
+string1 = """i am a long code vro.
+test me out mayn
+im so cool and stuff 
+i can also be used with single quotes"""
+# sometimes a string is so long that it wraps around and forms a new line. 
+multiline = ''' lol im super long string
+i can keep going
+and ill be the same variable anyways vro'''
+
+
