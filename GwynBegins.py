@@ -196,5 +196,16 @@ print(string1.find("s"))
 # tell it to start from the back with .rfind
 
 CHECKING STRINGS
+# Checking a string is really simple! It's done by using the keyword "in" as shown below.
+string1 = "i love coding!"
+check = "lone" in string1
+print(check)
+# output should be true
+# checking is a boolean!
+# you can use the keywords "not in" to check to see whether or not the string is present in the variable. 
+string1 = "i love coding!"
+check = "love" not in string1
+print(check)
+#output should be false
 
-
+Concatenating NUMBERS
