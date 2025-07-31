@@ -209,3 +209,51 @@ print(check)
 #output should be false
 
 Concatenating NUMBERS
+# Concatenation doesn't work the same way with numbers. This is because the plus sign is also used to do basic math functions. 
+# he method which helps you combine different variable types with strings is called the "format()" method.
+# combining strings with integers? This is called the format method. 
+
+# string1.format( )
+# This function is expecting a variable to be placed within the parenthesis which can then be converted into the variable as shown below
+
+# string1.format(age)
+# You can also use multiple integers inside the format method.
+
+string1 = "The number of miles we've hiked totals up to {}"
+miles = 21
+print(string1.format(miles))
+
+string1 =  "the number of miles we've hiked totals up to {} which is {} feet"
+miles = 21
+feet = 110880
+print(string1.format(miles, feet))
+# examples 
+# Input for number of apples from one tree
+apples_per_tree = float(input("Enter the number of apples from one tree: "))
+
+# Bob has 3 wheelbarrows and 8 trees
+wheelbarrows = 3
+trees = 8
+
+# Calculate apples per wheelbarrow for one tree and for the whole orchard
+per_wheelbarrow_one_tree = float(apples_per_tree / wheelbarrows)
+per_wheelbarrow_orchard = float((apples_per_tree * trees) / wheelbarrows)
+
+# Output using format method
+output = "If Bob harvested one tree, he would have {} apples per wheelbarrow. If he harvested the whole orchard, he would have {} apples per wheelbarrow.".format(per_wheelbarrow_one_tree, per_wheelbarrow_orchard)
+
+print(output)
+# The format can actually handle an unlimited number of variables within the parenthesis. This is done by separating each variable with a comma. The example below shows how this is done.
+
+LIST
+# In Python, there are 3 main ways to group data together:
+
+# List: a data group that is ordered (numbered) and changeable (you can change the list items).  Allows duplicates.
+
+# Tuple: a data group that is unordered and unchangeable.  Allows duplicates.
+
+# Dictionary: a data group that is unordered, changeable and indexed.  No duplicates.
+
+# A listA group of data that uses [ ] brackets and can be changed. in Python is a data group that is ordered and changeable. 
+
+# Ordered means that the order of the data in the group matters.  Changeable means that you can switch out the data points right in the middle of your list. For example, the order of a step-by-step list of directions matters
