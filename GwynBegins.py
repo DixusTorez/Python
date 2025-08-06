@@ -257,3 +257,46 @@ LIST
 # A listA group of data that uses [ ] brackets and can be changed. in Python is a data group that is ordered and changeable. 
 
 # Ordered means that the order of the data in the group matters.  Changeable means that you can switch out the data points right in the middle of your list. For example, the order of a step-by-step list of directions matters
+
+IF STATEMENT FOR A LOOP
+
+# You can put any code you want inside a for loop. For loops get really fun when we add in an if statement. The loop moves through a list and checks to see if each item in the list fits a conditional.  According to your code, each item in the list will do something different.
+
+student_ages = [14, 17, 12, 14, 15, 18, 19, 10]
+
+for x in student_ages:
+
+    if x >= 16: 
+        print ("this student is old enough to drive")
+    else:
+        print("this student is not old enough to drive")
+
+# EACH item in the list will be tested to see if it is greater than or equal to
+#  In the example above, the print statement "This student is old enough to drive." only runs if x >= 16.   indentation is important.
+
+# RANGE! a list includes all the index spots between two numbers.  The first number is separated from the second number with a colon.
+smells = ["skunk", "lilac", "rain", "ocean", "garbage", "cleaner", "cookies"]
+
+print(smells[2:5])
+# The range goes up to the second number after the colon, but does not include it.
+#  loops can also be used to run code a certain number of times: for x in range(5): will run 5 times
+
+# UPDATING VARIABLES!  for loops are useful because they can update variables with each loop.  Here is an example of a piece of code that will update the variable named "total" with each loop.
+my_list = [2, 5, 8, 10]
+total= 0
+
+for x in my_list:
+    total= total + x
+print(total)
+
+# To create a list of strings, use the following code:
+# my_list = input().split() 
+# The input should look like words separated by spaces.  No commas, parenthesis, or brackets are needed.
+
+#  may require putting a bunch of numbers as input into a list. To do this, use this code:
+# my_list = [int(n) for n in input().split()]
+# code creates a list called "my_list" and the input().split() command breaks up the input into each individual integer. It uses a for loop to assign all the individual inputs to their index in the list
+
+# For this code, put your input question right into the input() above.  For example:
+#my_list = [int(n) for n in input("Input a list of numbers").split()] 
+# The input should look like numbers separated by spaces.  No
