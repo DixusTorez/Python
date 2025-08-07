@@ -300,3 +300,15 @@ print(total)
 # For this code, put your input question right into the input() above.  For example:
 #my_list = [int(n) for n in input("Input a list of numbers").split()] 
 # The input should look like numbers separated by spaces.  No
+
+LOOPS!
+while True:
+    answer = input("Yes or No? ").lower()
+    if answer == "yes":
+        print("You step out with her, your hand around her shoulder steadying yourself.")
+        break  # Exit the loop
+    elif answer == "no":
+        print("She pulls you out anyway, seeing your disheveled state. You step out with her reluctantly, your hand around her shoulder steadying yourself. “Yeah man, I'm helping whether or not you want it. My name is Joseph. Odd name for a woman so people just call me Jo.”")
+        break  # Exit the loop
+    else:
+        print("Invalid answer, please try again.")
