@@ -1,4 +1,4 @@
-print("Gastillo opens his eyes — all 16 of them.")
+print("Gastillo opens his eyes...all 16 of them.")
 print("He hears the fans in his head whirring as the implanted Spyder_Eys calibrate.")
 print("The motion is nearly sickening, but he gets used to it.")
 
@@ -11,7 +11,7 @@ print("A message appears on the screen:")
 print('''\n"Hey man, it's been a long slumber. You'll warm up eventually.
 You were sent here by the big man up top to take over this Vastella ship.
 You might’ve sustained some memory loss, but that’s okay.
-This codex should catch you up to speed. Or don’t — it doesn’t really matter."''')
+This codex should catch you up to speed. Or don’t. it doesn’t really matter."''')
 
 print('''\n "CODEX:"
 The Kaizoku:
@@ -31,20 +31,20 @@ Lasiks: Get your hands on one of these puppies. They're valuable, trustworthy an
 ''')
 
 print('\n“Shit…” Gastillo mutters, his voice crackling with static.')
-print("Confused, he touches his throat and feels wires and metal. Panicked, he breathes deeply, regaining some memory of his implants.")
+print("Confused, he touches his throat and feels wires and metal. Panicked, he breathes deeply, Trying to regain some memory of his implants.")
 
-print('\nA woman appears, peeking into the cryopod.')
+print('\nA woman appears, interupting his panick by peeking into the cryopod.')
 print('"Hey dude, you can come out now. Do you need help?"')
 
 # First choice
 while True:
     answer = input("\nYes or No? ").lower()
     if answer == "yes":
-        print("You step out with her, your hand around her shoulder, steadying yourself.")
+        print('''"You step out with her, your hand around her shoulder, steadying yourself. She introduces herself to you with a pleasant and sweet tone "My name is Joseph. Odd name for a woman, so people just call me Jo."''')
         break
     elif answer == "no":
-        print('''She pulls you out anyway, seeing your disheveled state.
-You step out with her reluctantly, your hand around her shoulder, steadying yourself.
+        print('''She pulls you out anyway, seeing your disheveled state. 
+You step out with her reluctantly, your hand around her shoulder, steadying yourself. She introduces herself to you with a pleasant and sweet tone
 "Yeah man, I'm helping whether or not you want it. My name is Joseph. Odd name for a woman, so people just call me Jo."''')
         break
     else:
@@ -66,18 +66,28 @@ The ship is massive — cryopods stacked to the ceiling, wide halls like a hotel
 You zoom in with your Spyder_Eys, estimating the ship holds hundreds of thousands, maybe millions.''')
 
 print('\nJo notices you spacing out. "Hey dude, are you okay?"')
-
+# Choice
 print('"Oh yeah..." you say.')
-
-# Second choice
 while True:
     answer = input("\nTell the truth? Yes or No? ").lower()
     if answer == "yes":
-        print('''"I'm just looking for friends," you admit.''')
+        print('"I\'m just looking for my friends," you admit.')
+        print('Jo pauses. "Well... i dont know what to say we could look for them in the Farms. "')
+        print('''She pauses. "Yeah you know what we'll both go."''')
+        # Branch A ---
+        print("\n[You and Jo take a detour to the Farms.]")
+        # Branch A here...
+        
         break
+
     elif answer == "no":
         print('"Oh, just looking around," you say, deflecting.')
+        print('Jo nods slowly. "Weirdo... anyways The mess hall’s just ahead."')
+        # Branch B ---
+        print("\n[Branch B: You both continue toward the mess hall in silence...]")
+        # Branch B here...
         break
+
     else:
         print('''She looks at you, confused.
 "Jeez man, are you sure your brain didn't freeze?"
