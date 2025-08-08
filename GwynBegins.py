@@ -337,6 +337,18 @@ my_list = [int(n) for n in input().split()]
 
 my_list = [int(n) for n in input("Input a list of numbers").split()] 
 
+# Removing items from a list can be done with the remove() method.  '
+goat = ['Bili', 'frank', 'bdp'] 
+goat.('bdp')
+print (goat)
+# The remove() method will take out the first element that matches.
+
+# Sometimes you will want to actually pull out an item from a list so that it will no longer be in the list, but you still want to use the item value. This is done with the pop() method.
+goat = ['Bili', 'frank', 'bdp'] 
+favorite = goat.pop(2)
+print(favorite + " is my favorite!")
+print(goat)
+
 LOOPS!
 while True:
     answer = input("Yes or No? ").lower()
