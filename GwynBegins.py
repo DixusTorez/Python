@@ -301,6 +301,42 @@ print(total)
 #my_list = [int(n) for n in input("Input a list of numbers").split()] 
 # The input should look like numbers separated by spaces.  No
 
+# There are several ways to add to a list in python.  One of these methods is append(). 
+
+goats = ['Bili', 'frank', 'bdp']
+goats.append('molly')
+print(goats)
+# adds the value of "Molly" to the end of the list.
+
+# combine lists using the method extend().
+goat = ['Bili', 'frank', 'bdp'] 
+goat.extend(['Billy', 'bobby', 'brown'])
+print (goat)
+# This adds the new list to the end of the original list.
+
+goat = ['Bili', 'frank', 'bdp'] 
+goat.extend("Fries")
+print (goat)
+# splits the name into a billion little peices
+
+# Sometimes you might want to add an item to a list in a specific place.  This is done with insert(). use numberes
+goat = ['Bili', 'frank', 'bdp'] 
+goat.insert(2,"Fries")
+print (goat)
+
+# To create a list of strings, use the following code:
+
+my_list = input().split()
+# No commas, parentheses, or brackets are needed.
+
+# These challenges may require putting a bunch of numbers as input into a list. To do this, use this code:
+
+my_list = [int(n) for n in input().split()]
+
+# For this code, put your input question right into the input() above.  For example:
+
+my_list = [int(n) for n in input("Input a list of numbers").split()] 
+
 LOOPS!
 while True:
     answer = input("Yes or No? ").lower()
