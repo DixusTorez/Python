@@ -1,0 +1,15 @@
+num = int(input("Numer Now: "))
+# always add integer before math
+Sub1= num - 1
+add1 = num + 1
+# sep = "," adds comma to stuff
+print (Sub1, add1, sep= ",")
+
+num = input("Numer Now: ")
+onum = input( "Another one: ")
+# remember parenthisis and modulus. also use int 
+family= int(num)
+oranges= int(onum)
+Remain = int(oranges % family) 
+print (Remain)
+
