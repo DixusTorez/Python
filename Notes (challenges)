@@ -45,6 +45,54 @@ print(check)
 
 string1 = input()
 # use this for input to check
+
 check = "a" in string1
 # checks for specifick word or letter
 print(check)
+
+tdn = input()  # input as a string, no prompt
+
+# Convert each character to int and sum them
+one = int(tdn[0])
+two = int(tdn[1])
+three = int(tdn[2])
+
+total = one + two + three
+
+print(f"The sum of those digits is {total}.")
+
+dollars = int(input())
+cents = int(input())
+quantity = int(input())
+
+# Convert total price of one cookie to cents
+total_cents_per_cookie = dollars * 100 + cents
+
+# Calculate total cost in cents for the given quantity
+total_cents = total_cents_per_cookie * quantity
+
+# Convert back to dollars and cents for display
+total_dollars = total_cents // 100
+total_cents_remainder = total_cents % 100
+
+# Format the output string exactly as required
+print("The total cost of {} cookies is ${}.{:02d}.".format(quantity, total_dollars, total_cents_remainder))
+
+# Lists can be mixed
+pets = ["dog", "cat", 3, 5, "chicken"] 
+print(pets)
+
+num = int(input())
+# % num is how to figure out wether somethings even or odd
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+num = int(input())
+
+if num >= 0:
+    print("1")
+else:
+    print("-1")
