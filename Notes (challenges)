@@ -13,3 +13,38 @@ oranges= int(onum)
 Remain = int(oranges % family) 
 print (Remain)
 
+string1= "I love Coding!"
+print(string1[4:9])
+# Slice
+print(string1.split())
+# Split
+print(len(string1))
+# length
+print(string1.find("s"))
+# Find
+
+# Take the string as input
+text = input()
+
+# Find first and last occurrence of "e"
+first_index = text.find("e")
+last_index = text.rfind("e")
+
+# Print them separated by a hyphen
+print(str(first_index) + "-" + str(last_index))
+
+string1= "i love coding"
+check = "love" in string1
+print(check)
+# this will check for words in a strng
+
+string2 = "i love coding"
+check = "love" not in string2
+print(check)
+# this will check if word is not in string
+
+string1 = input()
+# use this for input to check
+check = "a" in string1
+# checks for specifick word or letter
+print(check)
