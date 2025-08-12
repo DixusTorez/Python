@@ -105,3 +105,26 @@ elif coins == 20:
 else:
      print("you do not have enough to buy a puppy")
 
+# Ask the user for their age
+age = int(input("Enter your age: "))
+
+# Boolean for whether they have a license
+license = True  # Change to False if they don't have a license
+
+# Check if they are old enough and have a license
+if age >= 16 and license == True:
+    print("You are old enough to drive.")
+else:
+    print("You are not able to drive.")
+
+# Ask the user for their height in inches
+height = int(input("Enter your height in inches: "))
+
+# Check if the user meets the height requirement
+if height >= 48:
+    print("You can ride the roller coaster.")
+else:
+    print("You can’t ride the roller coaster.")
+
+
+
