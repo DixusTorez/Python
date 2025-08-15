@@ -127,4 +127,25 @@ else:
     print("You can’t ride the roller coaster.")
 
 
+# Get input and convert it to a list of integers
+my_list = [int(n) for n in input().split()]
+
+# Find the largest number
+largest_number = max(my_list)
+
+# Print the largest number
+print(largest_number)
+
+# Convert input into a list of integers
+my_list = [int(n) for n in input().split()]
+
+# Start with the first item as current
+current = my_list[0]
+
+# Loop through the list starting from the second item
+for item in my_list[1:]:
+    if item > current:
+        print(item, end=" ")
+    current = item  # Update current to the latest item
+
 
