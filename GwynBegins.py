@@ -1,5 +1,3 @@
-pet = "dog"
-# Alt + 227 is for pi
 **THIS IS FOR concatenation**
 string1 = "dogs are"
  string2 = " cute" 
