@@ -1,8 +1,14 @@
+   Num = int("Input a number! ")
+    Num % 2
+# This was my first attempt at making a thing. i was in the right putting the int in front. i simply forgot the input
+
 Number = input("Input a number! ")
 print("Number" % 2)
+# I was on the right track but unfortunatley did it without putting int in the front of the input. with integers (Numbers) it goes like ths number = int(input())
 
 number = int(input("Input a number! "))
 if number % 2 == 0:
+# “If the number is divisible by 2 with no remainder, then it is even.”
     print("The number is even.")
 else:
     print("The number is odd.")
