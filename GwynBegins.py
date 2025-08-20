@@ -358,3 +358,48 @@ while True:
         break  # Exit the loop
     else:
         print("Invalid answer, please try again.")
+
+ITERATING LISTS 2D
+mylist= [[0, 1, 2], [10, 15, 20], [100, 200, 300], [5, 6, 7]]
+rows = 4
+cols = 3 
+
+for i in range(rows):
+    for j in range(cols):
+    mylist[i][j] = mylist[i][j] * 2
+
+print(mylist)
+# code that will multiply each element of a 2D list by 2
+
+# access each item in each list that's inside the overall list named my_list. We do this by using range( ).
+# additon with strings
+my_list = [['dog', 'cat', 'frog'], ['shark', 'squid', 'whale'], ['deer', 'fox', 'badger']]
+rows = 3
+cols = 3
+
+for i in range(rows):
+    for j in range(cols):
+        my_list[i][j] = my_list[i][j] + "is awsome"
+        
+print(my_list)
+# columns are cols
+my_list = [[0, 1, 2], [10, 15, 20], [100, 200, 300], [5, 6, 7]]
+
+# Ask the user for the multiplier
+multiplier = int(input("Enter a multiplier: "))
+
+# Multiply each element by the multiplier
+for i in range(len(my_list)):
+    for j in range(len(my_list[i])):
+        my_list[i][j] = my_list[i][j] * multiplier
+
+# Print the updated list
+print(my_list)
+# with input
+
+# creating a one dimensional list
+n = 5
+list = []
+for i in range(n):
+    list.append(0)
+print(list)
