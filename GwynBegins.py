@@ -434,3 +434,10 @@ print(list)
 
 print(list)
 
+# while loops are to print all sigular variables one at a time in a loop.
+# for xample
+age = 17 
+
+while age >= 0:
+    print(age)
+    age -= 1
