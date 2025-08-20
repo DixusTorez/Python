@@ -1,0 +1,47 @@
+Potential! 
+# Step 1: Create a list of 4 first names (rows)
+first_names = ["James", "Alex", "Taylor", "Jordan"]
+
+# Step 2: Create a list of 4 last names (columns)
+last_names = ["Bond", "Carter", "Reed", "Smith"]
+
+# Step 3: Create an empty list to store the combinations
+name_combinations = []
+
+# Step 4: Outer loop to iterate through first names
+for first in first_names:
+    # Step 5: Create an empty list for each first name
+    row = []
+    # Step 6: Inner loop to iterate through last names
+    for last in last_names:
+        # Step 7: Concatenate first and last names and append to the row
+        row.append(first + " " + last)
+    # Step 8: Append the row to the main list
+    name_combinations.append(row)
+
+# Step 9: Print the 2D list of name combinations
+print(name_combinations)
+
+Fruit!
+# Predefined list of flavors
+flavors = ["apple", "grape", "peach", "cinnamon", "vanilla"]
+
+# Step 1: Take user input for fruits and split them into a list
+fruits = input("Enter a list of fruits: ").split()
+
+# Step 2: Initialize an empty list to store the combinations
+combinations = []
+
+# Step 3: Loop through each fruit
+for fruit in fruits:
+    # Step 4: Create an empty list for the current fruit's combinations
+    fruit_combinations = []
+    # Step 5: Loop through each flavor
+    for flavor in flavors:
+        # Step 6: Combine the fruit and flavor and append to the current list
+        fruit_combinations.append(f"{fruit} {flavor}")
+    # Step 7: Append the current list of combinations to the main list
+    combinations.append(fruit_combinations)
+
+# Step 8: Print the 2D list of combinations
+print(combinations)
