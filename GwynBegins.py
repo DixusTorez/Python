@@ -403,3 +403,34 @@ list = []
 for i in range(n):
     list.append(0)
 print(list)
+
+# Range to create two d lists
+rows = 5
+cols = 5
+list =[] 
+for i in range(cols):
+    col= []
+    for j in range(rows):
+        col.append(i)
+    list.append(col)
+ # making a list with stuff in it
+ # Initialize rows and cols
+rows = 4
+cols = 3
+
+# Create an empty list
+list = []
+
+# Outer loop for rows
+for i in range(rows):
+    # Inner loop for columns
+    row = []  # Create a new row
+    for j in range(cols):
+        row.append(5)  # Append 5 to the row
+    list.append(row)  # Add the row to the list
+
+# Print the resulting list
+print(list)
+
+print(list)
+
