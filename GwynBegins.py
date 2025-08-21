@@ -460,3 +460,23 @@ def weather(type):
 weather("raining")
 
 # you can add concatenation and it will repeate like a loop until all potential combonations of the function is complete.
+
+# Multiple parameters. functions can accept mor than one parameter.
+# Example
+def gifts(first,second):
+    print("Your first choice for a birthday gift would be " + first)
+    print("Your second choice for a birthday gift would be " + second)
+
+gifts("bike", "basketball")
+gifts("baseball", "3ds")
+
+# variable inside a function is called a local variable
+# example 
+def myfunction():
+    fruit = "apple"
+    print(fruit)
+
+myfunction()
+
+print(favorite)
+
