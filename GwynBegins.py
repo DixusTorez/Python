@@ -441,3 +441,22 @@ age = 17
 while age >= 0:
     print(age)
     age -= 1
+ 
+FUNCTION PARAMETERS!
+
+# Function parameters are what goes into the parenthesis of a Function declaration. 
+basic function example:
+
+def weather():
+    print("It's a soggy day outside")
+
+weather()
+
+# example of parameters 
+
+def weather(type):
+    print("It's a soggy day outside because it is " + type)
+
+weather("raining")
+
+# you can add concatenation and it will repeate like a loop until all potential combonations of the function is complete.
