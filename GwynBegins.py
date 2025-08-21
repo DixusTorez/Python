@@ -492,3 +492,24 @@ mymodules.greeting ("Shawn")
 # A package is a grouping of modules. A module is a specific chunk of code being used
 
 Python Generator and Lambda Functions
+# generator functions use yeild instead of return. if a function has yield it is a generator.
+# example
+def myFunction():
+    yield 1
+    yield 2
+    yield 3
+
+# it doesnt print because it lacks a loop called a generator object.
+# example
+for x in myFunction():
+    print(x)
+# with this now on the end itll print.
+
+# lambda functions also called anonymous functions are used for the short term. 
+# example 
+(lambda x: x + 1) (2)
+# oddly enough doesnt print.
+# multiplication is also viable
+# in order to print do dis
+myfunction = lambda x : x + 10
+print(myfunction(5))
