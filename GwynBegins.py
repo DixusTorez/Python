@@ -480,3 +480,15 @@ myfunction()
 
 print(favorite)
 
+MODULES 
+#  modules are add ons for specific projects like pygame or python math.
+#you use the comand import with whatever you want to import
+def greeting(name):
+    print("Good morning" + name)
+
+import mymodules
+mymodules.greeting ("Shawn")
+# You can use multiple modules (or functions) from the same file.
+# A package is a grouping of modules. A module is a specific chunk of code being used
+
+Python Generator and Lambda Functions
