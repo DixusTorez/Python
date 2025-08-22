@@ -513,3 +513,15 @@ for x in myFunction():
 # in order to print do dis
 myfunction = lambda x : x + 10
 print(myfunction(5))
+
+RECURSION
+# recoursion is basicallt code calling itself (lambda remember?)
+# example using santa. iterative! 
+houses = ['erics house' , 'kennys house' , 'kyles house' , 'stans house']
+
+def deliver_presents_iteratively(houses):
+    for house in houses:
+        print('delivering presents to', house)
+deliver_presents_iteratively(houses)
+# what this will do is make santa go down each house one by one and that would take way to long
+
