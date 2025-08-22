@@ -524,4 +524,25 @@ def deliver_presents_iteratively(houses):
         print('delivering presents to', house)
 deliver_presents_iteratively(houses)
 # what this will do is make santa go down each house one by one and that would take way to long
+# Now theres a recursive way for santa to do this. making him use elves as assistants
+# example using santa AND the elves
+houses = [ 'aktus house' , 'bobs house' , 'xin lis house' , 'melissas house']
+# each funclion call reps a elf doing work 
+def deliver_presents_recursively(houses):
+    # worker elf doin work
+    if len(houses) == 1:
+        house = houses[0]
+        print("Delivering presents to " + house)
 
+
+    # now the managers gonna work
+    else:
+        mid = len(houses) // 2
+        first_half = houses[:mid]
+        second_half = houses[mid:]
+
+        # he now devides work
+        deliver_presents_recursively(first_half)
+        deliver_presents_recursively(second_half)
+# that giant function is called a def
+# This is recursion - when a function calls itself.
