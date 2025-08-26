@@ -617,3 +617,32 @@ garden = ["pumpkins","corn","leeches","lichen"]
 garden_dictionary = dict.fromkeys(garden , "Harvested")
 print(garden_dictionary)
 
+# printing out key names
+classmates = {
+    "June" : 72,
+    "Jane" : 20,
+    "Rudolph" : 30 
+}
+for x in classmates: 
+    print(x)
+
+# printing values
+classmates = {
+    "June" : 72,
+    "Jane" : 20,
+    "Rudolph" : 30 
+}
+for x in classmates.values():
+    print(x)
+
+# printing both
+
+classmates = {
+    "June" : 72,
+    "Jane" : 20,
+    "Rudolph" : 30 
+}
+
+for x,y in classmates.items():
+    print(x,y)
+ 
