@@ -645,4 +645,21 @@ classmates = {
 
 for x,y in classmates.items():
     print(x,y)
+
+Sets
+
+# sets are unchangable unordered and unindexed items can be added or removed but they cant change. they also use curly brackets
+colors = { "ora" , 22, "purp", "yellow", 4, 5}
+print(colors)
+# they print randomly because the are unindexed. they are unreliable to keep in order.
+# sets cant have duplicate items
+colors= {'green', 'green', 'red', 'yellow', 'purple'}
+print(colors)
+# length of a set is possible
+colors = { "ora" , 22, "purp", "yellow", 4, 5}
+print(len(colors))
+# adding can be done to 
+colors = { "ora" , 22, "purp", "yellow", 4, 5}
+colors.add("Brown")
+print(colors)
  
