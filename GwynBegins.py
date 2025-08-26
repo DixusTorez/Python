@@ -546,3 +546,74 @@ def deliver_presents_recursively(houses):
         deliver_presents_recursively(second_half)
 # that giant function is called a def
 # This is recursion - when a function calls itself.
+
+dictionaries! 
+
+# you can get rid of stuff on dictionaries by using the pop meathod
+# example 
+clasmates = {
+    "bob" : 7,
+    "vance" : 20,
+    "Jack" : 30 
+}
+
+print(clasmates)
+
+clasmates.pop ("Jack")
+
+print(clasmates)
+
+# you can add to empty dictionaries
+friends = {}
+
+friends["simon"] = 12
+friends["zach"] = 13
+
+print(friends)
+
+# and you can  add new people to dictionaries
+classmates = {
+    "June" : 72,
+    "Jane" : 20,
+    "Rudolph" : 30 
+}
+
+classmates["Quinten"] = 40
+print(classmates)
+
+# dictionary length is counted first at one.
+classmates = {
+    "June" : 72,
+    "Jane" : 20,
+    "Rudolph" : 30 
+}
+
+
+print(len(classmates))
+
+# you can also see if somethings is actually in you dictionary
+
+classmates = {
+    "June" : 72,
+    "Jane" : 20,
+    "Rudolph" : 30 
+}
+
+if "June" in classmates:
+    print("June is in your dictionary")
+
+# and vise versa
+classmates = {
+    "June" : 72,
+    "Jane" : 20,
+    "Rudolph" : 30 
+}
+
+if "Rob" not in classmates:
+    print("Rob is not in your dictionary")
+
+# heres making a list into a dictionary
+garden = ["pumpkins","corn","leeches","lichen"]
+garden_dictionary = dict.fromkeys(garden , "Harvested")
+print(garden_dictionary)
+
