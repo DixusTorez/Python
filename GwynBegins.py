@@ -733,3 +733,53 @@ if "viola" in insturments:
     print("Where?")
 else:
     print("Really?")
+
+RANDOMNESS IN GAME DESIGN
+
+#randomization is quite important.
+#theres a modulethat you can import to python called random
+#you import it by sayin "import random"
+#this program makes a diffrent number every run
+#proper crediting is important
+#you can also fine tune the module 
+
+import random
+print(random.randint(1, 10))
+
+#it'll generate a random number
+
+#finding a random number between 0 and 1 is easier
+
+import random
+print(random.random())
+
+PYTHON MATH
+#considered one of the more useful in the libraries
+#you can access it by saying "import math"
+
+#math.ceil() is how you round up 
+import math
+x = math.ceil(3.2)
+print(x)
+
+#you can also round down
+import math
+x = math.floor(3.2)
+print(x)
+
+#pi is aslo availible for use
+import math 
+x = math.pi
+print(x)
+
+#square root is avalible
+import math 
+x = math.sqrt(100)
+print(x)
+
+#multiplication to a power is also good
+import math
+x = pow(2,4)
+print(x)
+
+
