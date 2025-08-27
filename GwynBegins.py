@@ -782,4 +782,47 @@ import math
 x = pow(2,4)
 print(x)
 
+PYTHON TIME
+# python has a daytime library which relies on date and times down to the millisecond.
+import datetime
+x = datetime.datetime.now()
+print(x)
+
+# you can turn this into a string
+import daytime
+x = datetime.datetime.now()
+print(x.strftime( ))
+
+# you can also the time for today.
+import datetime
+
+x = datetime.date.today()
+
+print(x)
+# this will print today
+
+# here is local time 
+import daytime
+x = datetime.datetime.now()
+print(x.strftime("%X"))
+# itll return the time am/pm
+
+# two digit month
+import daytime
+x = datetime.datetime.now()
+print(x.strftime("%m"))
+#print the month in number form
+
+# two digit day
+import daytime
+x = datetime.datetime.now()
+print(x.strftime("%d"))
+# prints day in number form
+
+# four digit year
+import daytime
+x = datetime.datetime.now()
+print(x.strftime("%Y"))
+# prints the year in number form
+
 
