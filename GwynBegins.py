@@ -662,4 +662,74 @@ print(len(colors))
 colors = { "ora" , 22, "purp", "yellow", 4, 5}
 colors.add("Brown")
 print(colors)
- 
+
+Functions
+# Python functions are defined by the abreviation def
+def weather():
+    print("Its a soggy day out side.")
+
+# the indented code is responding to the function named weather.
+# nothing is printed because you have to call the function
+def weather():
+    print("Its a soggy day out side.")
+
+weather()
+
+# a variable inside a function is called a local variable
+# example
+favorit = "i love juice"
+def myfunction():
+    fruit = "apple"
+    print(fruit)
+
+myfunction()
+
+print(favorit)
+
+# fruit would be the local variable. 
+
+# variables that are created outside functions are called global variables and they can be used anywhere in a program.
+# favorit would be the global variable. 
+
+global keyword
+favorite = "i love juice"
+def myfunction():
+    global fruit 
+    fruit = "apple"
+
+myfunction()
+
+print(favorite)
+print(fruit)
+
+# fruit can be used in other places because its a global variable
+
+TUPLES
+#Tuples are unchangable.
+#ex
+insturments = ("piano","violin","clarinet","drum")
+print(insturments)
+# Might look like a list but actually uses parenthsis instead of brakets.
+# heres how you acces a tuple item (with indexing we always start with zero)
+
+insturments = ("piano","violin","clarinet","drum")
+print(insturments[1])
+
+# you can also negative index but counting starts at -1 instead of zero
+
+insturments = ("piano","violin","clarinet","drum")
+print(insturments[-1])
+
+# wanna get multiple values? use ranges
+
+insturments = ("piano","violin","clarinet","drum")
+print(insturments[1:3])
+
+# first number is start and second is where it ends.
+#you can also check if stuff is in the tuple 
+
+insturments = ("piano","violin","clarinet","drum")
+if "viola" in insturments:
+    print("Where?")
+else:
+    print("Really?")
