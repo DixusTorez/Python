@@ -4,7 +4,7 @@ string1 = "dogs are"
  string3 = string1 + string2 print(string3) 
  age = 12 
  print("you are " + str(age) + " years old.")
- # You need to first convert your integers to a string, then you can concatenate them together. you cannot concatenate an integer into a string. 
+ # You need to first convert your integers to a string, then you can concatenate them together. You cannot concatenate an integer into a string. 
  age = input("how old are you? ") 
  print("you are " + age + "years old")
 # inputs are automatically accepted as strings # Concatenation can only be done with strings.
@@ -22,7 +22,7 @@ string1 = "dogs are"
       c = "cool"
        result = a + b + c 
        print(result) 
-       # Concatenated the three variables together and store them in a new variable. 
+       # Concatenate the three variables together and store them in a new variable. 
        string1 = "I like to" 
        string2 = "swim." 
        print(string1 + " " + string2)
@@ -67,9 +67,9 @@ print(time_indoors)
 
 THIS IS FOR SYNTAX AND COMMENTS
 print("LOTR hobbits")
-# its very faithful to the book in certiant aspects
+# its very faithful to the book in certain aspects
 print("M3gan 2.0")
-# i loved the story and it was pretty good.
+# I loved the story and it was pretty good.
 print("The ring")
 # I loved how scary it was at the beginning. 
 
@@ -132,11 +132,11 @@ age = "15"
 
 # Strings can also hold a large amount of text that goes across multiple lines of code. These are called multiline strings. To create a multiline string, you must use three sets of quotes, double or single, before and after the desired text.
 string1 = """i am a long code vro.
-test me out mayn
+test me out man
 im so cool and stuff 
 i can also be used with single quotes"""
 
-# sometimes a string is so long that it wraps around and forms a new line. 
+# Sometimes a string is so long that it wraps around and forms a new line. 
 multiline = ''' lol im super long string
 i can keep going
 and ill be the same variable anyways vro'''
@@ -188,7 +188,7 @@ print(string1.split())
 string1 = "yodel ey yehooo"
 print(len(string1))
 
-# how to Find a Character in a String. will return a number and that will be where it is
+# How to Find a Character in a String. will return a number and that will be where it is
 string1 = "Mississippi" 
 print(string1.find("s"))
 # tell it to start from the back with .rfind
@@ -208,7 +208,7 @@ print(check)
 
 Concatenating NUMBERS
 # Concatenation doesn't work the same way with numbers. This is because the plus sign is also used to do basic math functions. 
-# he method which helps you combine different variable types with strings is called the "format()" method.
+# The method which helps you combine different variable types with strings is called the "format()" method.
 # combining strings with integers? This is called the format method. 
 
 # string1.format( )
@@ -315,9 +315,9 @@ print (goat)
 goat = ['Bili', 'frank', 'bdp'] 
 goat.extend("Fries")
 print (goat)
-# splits the name into a billion little peices
+# splits the name into a billion little pieces
 
-# Sometimes you might want to add an item to a list in a specific place.  This is done with insert(). use numberes
+# Sometimes you might want to add an item to a list in a specific place.  This is done with insert(). use numbers
 goat = ['Bili', 'frank', 'bdp'] 
 goat.insert(2,"Fries")
 print (goat)
@@ -372,14 +372,14 @@ print(mylist)
 # code that will multiply each element of a 2D list by 2
 
 # access each item in each list that's inside the overall list named my_list. We do this by using range( ).
-# additon with strings
+# addition with strings
 my_list = [['dog', 'cat', 'frog'], ['shark', 'squid', 'whale'], ['deer', 'fox', 'badger']]
 rows = 3
 cols = 3
 
 for i in range(rows):
     for j in range(cols):
-        my_list[i][j] = my_list[i][j] + "is awsome"
+        my_list[i][j] = my_list[i][j] + "is awesome"
         
 print(my_list)
 # columns are cols
@@ -434,8 +434,8 @@ print(list)
 
 print(list)
 
-# while loops are to print all sigular variables one at a time in a loop.
-# for xample
+# while loops are to print all singular variables one at a time in a loop.
+# for example
 age = 17 
 
 while age >= 0:
@@ -459,9 +459,9 @@ def weather(type):
 
 weather("raining")
 
-# you can add concatenation and it will repeate like a loop until all potential combonations of the function is complete.
+# you can add concatenation and it will repeat like a loop until all potential combinations of the function are complete.
 
-# Multiple parameters. functions can accept mor than one parameter.
+# Multiple parameters. functions can accept more than one parameter.
 # Example
 def gifts(first,second):
     print("Your first choice for a birthday gift would be " + first)
@@ -482,7 +482,7 @@ print(favorite)
 
 MODULES 
 #  modules are add ons for specific projects like pygame or python math.
-#you use the comand import with whatever you want to import
+#you use the command import with whatever you want to import
 def greeting(name):
     print("Good morning" + name)
 
@@ -492,30 +492,30 @@ mymodules.greeting ("Shawn")
 # A package is a grouping of modules. A module is a specific chunk of code being used
 
 Python Generator and Lambda Functions
-# generator functions use yeild instead of return. if a function has yield it is a generator.
+# generator functions use yield instead of return. if a function has yield it is a generator.
 # example
 def myFunction():
     yield 1
     yield 2
     yield 3
 
-# it doesnt print because it lacks a loop called a generator object.
+# it doesn't print because it lacks a loop called a generator object.
 # example
 for x in myFunction():
     print(x)
-# with this now on the end itll print.
+# with this now on the end it'll print.
 
 # lambda functions also called anonymous functions are used for the short term. 
 # example 
 (lambda x: x + 1) (2)
-# oddly enough doesnt print.
+# oddly enough doesn't print.
 # multiplication is also viable
 # in order to print do dis
 myfunction = lambda x : x + 10
 print(myfunction(5))
 
 RECURSION
-# recoursion is basicallt code calling itself (lambda remember?)
+# recursion is basically code calling itself (lambda remember?)
 # example using santa. iterative! 
 houses = ['erics house' , 'kennys house' , 'kyles house' , 'stans house']
 
@@ -524,12 +524,12 @@ def deliver_presents_iteratively(houses):
         print('delivering presents to', house)
 deliver_presents_iteratively(houses)
 # what this will do is make santa go down each house one by one and that would take way to long
-# Now theres a recursive way for santa to do this. making him use elves as assistants
+# Now there's a recursive way for Santa to do this. making him use elves as assistants
 # example using santa AND the elves
 houses = [ 'aktus house' , 'bobs house' , 'xin lis house' , 'melissas house']
-# each funclion call reps a elf doing work 
+# each function call reps a elf doing work 
 def deliver_presents_recursively(houses):
-    # worker elf doin work
+    # worker elf doing work
     if len(houses) == 1:
         house = houses[0]
         print("Delivering presents to " + house)
@@ -541,7 +541,7 @@ def deliver_presents_recursively(houses):
         first_half = houses[:mid]
         second_half = houses[mid:]
 
-        # he now devides work
+        # he now divides work
         deliver_presents_recursively(first_half)
         deliver_presents_recursively(second_half)
 # that giant function is called a def
@@ -549,19 +549,19 @@ def deliver_presents_recursively(houses):
 
 dictionaries! 
 
-# you can get rid of stuff on dictionaries by using the pop meathod
+# you can get rid of stuff on dictionaries by using the pop method
 # example 
-clasmates = {
+classmates = {
     "bob" : 7,
     "vance" : 20,
     "Jack" : 30 
 }
 
-print(clasmates)
+print(classmates)
 
 clasmates.pop ("Jack")
 
-print(clasmates)
+print(classmates)
 
 # you can add to empty dictionaries
 friends = {}
@@ -612,7 +612,7 @@ classmates = {
 if "Rob" not in classmates:
     print("Rob is not in your dictionary")
 
-# heres making a list into a dictionary
+# here's making a list into a dictionary
 garden = ["pumpkins","corn","leeches","lichen"]
 garden_dictionary = dict.fromkeys(garden , "Harvested")
 print(garden_dictionary)
@@ -648,10 +648,10 @@ for x,y in classmates.items():
 
 Sets
 
-# sets are unchangable unordered and unindexed items can be added or removed but they cant change. they also use curly brackets
+# sets are unchangeable, unordered and unindexed items can be added or removed but they cant change. they also use curly brackets
 colors = { "ora" , 22, "purp", "yellow", 4, 5}
 print(colors)
-# they print randomly because the are unindexed. they are unreliable to keep in order.
+# They print randomly because they are unindexed. They are unreliable to keep in order.
 # sets cant have duplicate items
 colors= {'green', 'green', 'red', 'yellow', 'purple'}
 print(colors)
@@ -664,11 +664,11 @@ colors.add("Brown")
 print(colors)
 
 Functions
-# Python functions are defined by the abreviation def
+# Python functions are defined by the abbreviation def
 def weather():
     print("Its a soggy day out side.")
 
-# the indented code is responding to the function named weather.
+# The indented code is responding to the function named weather.
 # nothing is printed because you have to call the function
 def weather():
     print("Its a soggy day out side.")
@@ -684,12 +684,12 @@ def myfunction():
 
 myfunction()
 
-print(favorit)
+print(favorite)
 
 # fruit would be the local variable. 
 
 # variables that are created outside functions are called global variables and they can be used anywhere in a program.
-# favorit would be the global variable. 
+# favorite would be the global variable. 
 
 global keyword
 favorite = "i love juice"
@@ -702,44 +702,44 @@ myfunction()
 print(favorite)
 print(fruit)
 
-# fruit can be used in other places because its a global variable
+# fruit can be used in other places because it's a global variable
 
 TUPLES
-#Tuples are unchangable.
+#Tuples are unchangeable.
 #ex
-insturments = ("piano","violin","clarinet","drum")
-print(insturments)
-# Might look like a list but actually uses parenthsis instead of brakets.
-# heres how you acces a tuple item (with indexing we always start with zero)
+instruments = ("piano","violin","clarinet","drum")
+print(instruments)
+# Might look like a list but actually uses parentheses instead of brackets.
+# here's how you access a tuple item (with indexing we always start with zero)
 
-insturments = ("piano","violin","clarinet","drum")
+instruments = ("piano","violin","clarinet","drum")
 print(insturments[1])
 
 # you can also negative index but counting starts at -1 instead of zero
 
-insturments = ("piano","violin","clarinet","drum")
+instruments = ("piano","violin","clarinet","drum")
 print(insturments[-1])
 
 # wanna get multiple values? use ranges
 
-insturments = ("piano","violin","clarinet","drum")
+instruments = ("piano","violin","clarinet","drum")
 print(insturments[1:3])
 
-# first number is start and second is where it ends.
+# The first number starts and the second is where it ends.
 #you can also check if stuff is in the tuple 
 
-insturments = ("piano","violin","clarinet","drum")
-if "viola" in insturments:
+instruments = ("piano","violin","clarinet","drum")
+if "viola" in instruments:
     print("Where?")
 else:
     print("Really?")
 
 RANDOMNESS IN GAME DESIGN
 
-#randomization is quite important.
-#theres a modulethat you can import to python called random
-#you import it by sayin "import random"
-#this program makes a diffrent number every run
+#Randomization is quite important.
+#there is a module that you can import to python called random
+#you import it by saying "import random"
+#this program makes a different number every run
 #proper crediting is important
 #you can also fine tune the module 
 
@@ -767,12 +767,12 @@ import math
 x = math.floor(3.2)
 print(x)
 
-#pi is aslo availible for use
+#pi is also available for use
 import math 
 x = math.pi
 print(x)
 
-#square root is avalible
+#square root is available
 import math 
 x = math.sqrt(100)
 print(x)
@@ -783,7 +783,7 @@ x = pow(2,4)
 print(x)
 
 PYTHON TIME
-# python has a daytime library which relies on date and times down to the millisecond.
+# Python has a daytime library which relies on date and times down to the millisecond.
 import datetime
 x = datetime.datetime.now()
 print(x)
@@ -805,7 +805,7 @@ print(x)
 import daytime
 x = datetime.datetime.now()
 print(x.strftime("%X"))
-# itll return the time am/pm
+# it'll return the time am/pm
 
 # two digit month
 import daytime
