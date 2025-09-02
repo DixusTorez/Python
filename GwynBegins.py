@@ -825,4 +825,37 @@ x = datetime.datetime.now()
 print(x.strftime("%Y"))
 # prints the year in number form
 
+Reading Text Files
+
+# a text file is a file with info but no formating. margins, spacing and indentation are not present. 
+# they are used for theyre tendency to not use much storage
+# information used in said textfiles include finances medical inf oand even weather info.
+# to create a atext file make sure your file has .txt at the end.
+# you have a file called example.txt and you wanna write a program that opens whats in the files.
+
+file = open("example.txt", "r")
+
+# r stands for read. its not possible to change the file we can only read it.
+# if you wanna read what in the file use this
+
+file = open("example.txt", "r")
+print(file.read())
+
+#closing files is quite simple
+
+file.close()
+
+# finding specific leters and numbers is pretty simple. all you gotta do is put a number where the parenthese is
+file = open("example.txt", "r")
+print(file.read(5))
+
+# it starts at one btw.
+# read lines will read entire lines of the text file. 
+file = open("example.txt", "r")
+print(file.readline())
+
+# put it in twice and it will  read the first two lines.
+# putting in readlines will return the files as a list
+file = open("example.txt", "r")
+print(file.readlines())
 
