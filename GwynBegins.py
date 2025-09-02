@@ -859,3 +859,15 @@ print(file.readline())
 file = open("example.txt", "r")
 print(file.readlines())
 
+# two ways to edit files on python. the first is appending and the other is to overwrite the file completely.
+# use the open() function to give a hint as to what your doing.
+
+file = open("example.txt", "r")
+
+# is you use "a" this is for append. this will add stuff.
+
+file = open("example.txt", "a")
+file.write("i love programing")
+
+# "w" is write which completely gets rid of the old text 
+
