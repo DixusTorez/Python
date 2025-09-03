@@ -880,3 +880,52 @@ file.close()
 # heres how
 
 file = open("new_document.txt", "w")
+
+OS PATH
+# wanna manage and delete folders and stuff? use a os path. 
+# an os path basically lets you create manage and delete diff folders and io path lets you read and write in said folders.
+
+# a module is a singular .py file and a package is multiple files.
+
+# import is a keyword in python that loads other files to your current coding page.
+
+# you import io path with "import os" 
+
+# want a specific file of code but you dont wanna retype it?  all you gotta do is import that function into the code. 
+# example
+
+import os 
+os.path.adventure()
+
+#os.path.isfile() is a function that specifies wether the file actually exists. this will return true or false
+# example
+
+import os
+variablename =
+os.path.isfile("C:\\Users\owl.png")
+print(variablename)
+
+#os.path.isdir() is a function that specifies wether the directory exists. will also return a true or false.
+# example
+
+import os
+variablename = os.path.isdir("C:\\Users")
+print(variablename)
+
+# os.path.remove() is a function which removes a file from the directory
+# example (if owl exised)
+
+import os
+os.path.remove("C:\\Users\owl.png")
+
+# thisll remove the file named owl.
+
+# os.path.basename() itll return the base name which is just the name of the file plus extension
+#example
+
+import os
+variablename =
+os.path.basename("/squirrel/elephant.png")
+print(variablename)
+
+# sys.path is usually created automaticlly and is a list of all the directiories said file will use. the empty '' means the current directory
