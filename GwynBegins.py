@@ -871,3 +871,12 @@ file.write("i love programing")
 
 # "w" is write which completely gets rid of the old text 
 
+# using write mode is the exact same as using apend mode the only diffrence being that it replaces everything that was in the text file.
+file = open("example.txt" , "w")
+file.write("This Line will replace what was in this file.")
+file.close()
+
+# write and append modes can also be used to create brand new files 
+# heres how
+
+file = open("new_document.txt", "w")
